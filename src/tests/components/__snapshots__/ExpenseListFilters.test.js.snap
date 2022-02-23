@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render ExpenseListFilters correctly 1`] = `
+<div>
+  <input
+    onChange={[Function]}
+    type="text"
+    value=""
+  />
+  <select
+    onChange={[Function]}
+    value="date"
+  >
+    <option
+      value="date"
+    >
+      Date
+    </option>
+    <option
+      value="amount"
+    >
+      Amount
+    </option>
+  </select>
+  <ForwardRef(DateRangePicker)
+    calendars={1}
+    clearable={true}
+    endText="End date"
+    inputFormat="dd/MM/yyyy"
+    onChange={[Function]}
+    renderInput={[Function]}
+    startText="Start date"
+    value={
+      Array [
+        "1969-12-01T00:00:00.000-05:00",
+        "1969-12-31T23:59:59.999-05:00",
+      ]
+    }
+  />
+</div>
+`;
+
+exports[`should render ExpenseListFilters with altFilters correctly 1`] = `
+<div>
+  <input
+    onChange={[Function]}
+    type="text"
+    value="bills"
+  />
+  <select
+    onChange={[Function]}
+    value="amount"
+  >
+    <option
+      value="date"
+    >
+      Date
+    </option>
+    <option
+      value="amount"
+    >
+      Amount
+    </option>
+  </select>
+  <ForwardRef(DateRangePicker)
+    calendars={1}
+    clearable={true}
+    endText="End date"
+    inputFormat="dd/MM/yyyy"
+    onChange={[Function]}
+    renderInput={[Function]}
+    startText="Start date"
+    value={
+      Array [
+        "1969-12-01T00:00:00.000-05:00",
+        "1969-12-31T23:59:59.999-05:00",
+      ]
+    }
+  />
+</div>
+`;

@@ -13,7 +13,7 @@ import 'normalize.css/normalize.css';
 import './styles/styles.scss';
 
 const store = configureStore();
-
+console.log('testing');
 const jsx = (
   <Provider store={store}>
     <LocalizationProvider dateAdapter={AdapterLuxon}>
